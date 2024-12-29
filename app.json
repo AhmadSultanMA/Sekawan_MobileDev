@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Sekawan_MobileDev",
-    "slug": "Sekawan_MobileDev",
+    "name": "DataHub",
+    "slug": "datahub",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "DataHub",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -36,6 +36,20 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "2a0fe75d-90b9-412a-8f1d-bc9a114cd745"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2a0fe75d-90b9-412a-8f1d-bc9a114cd745"
     }
   }
 }
